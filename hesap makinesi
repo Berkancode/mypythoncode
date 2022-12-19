@@ -1,0 +1,25 @@
+print("""
+                            Hesap Makinesi
+        Toplama işlemi yapmak için "+" tuşuna basın
+        Çıkartma işlemi yapmak için "-" tuşuna basın 
+        Çarpma işlemi yapmak için "*" tuşuna basın 
+        Bölme işlemi yapmak için "/" tuşuna basın                    
+""")
+islem = str(input("İşlem seçiniz: "))
+if islem == "+":
+    a = int(input("1. sayıyı giriniz: "))
+    b = int(input("2. sayıyı giriniz: "))
+    print("Sonuç:" , a + b)
+elif islem == "-":
+    a = int(input("1. sayıyı giriniz: "))
+    b = int(input("2. sayıyı giriniz: "))
+    print("Sonuç:" , a - b)
+elif islem == "*":
+    a = int(input("1. sayıyı giriniz: "))
+    b = int(input("2. sayıyı giriniz: "))
+    print("Sonuç:" , a * b)
+elif islem == "/":
+    a = int(input("1. sayıyı giriniz: "))
+    b = int(input("2. sayıyı giriniz: "))
+    print("Sonuç:" , a / b)
+else: print("Hatalı karakter girdiniz...")
