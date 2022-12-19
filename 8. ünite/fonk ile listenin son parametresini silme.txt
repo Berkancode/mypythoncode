@@ -1,0 +1,4 @@
+def remove_last_item (celegans_markers:list):
+    celegans_markers = ['Emb', 'Him', 'Unc', 'Lon', 'Dpy', 'Lvl']
+    remove_last_item(celegans_markers)
+    print(celegans_markers)

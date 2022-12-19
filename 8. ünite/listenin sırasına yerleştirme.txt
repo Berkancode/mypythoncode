@@ -1,0 +1,3 @@
+colors = ['red', 'orange', 'green']
+colors.insert(2, 'yellow')
+print(colors)

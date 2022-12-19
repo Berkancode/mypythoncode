@@ -1,0 +1,3 @@
+atomlar = ['H', 'He', 'Li']
+final = atomlar + ['Be']
+print(final)

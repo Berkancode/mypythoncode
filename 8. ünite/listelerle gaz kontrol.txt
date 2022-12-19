@@ -1,0 +1,6 @@
+soygaz = ['helyum', 'neon', 'argon', 'kripton', 'ksenon', 'radon']
+gaz = input('Bir gaz girin: ')
+
+if gaz in soygaz:
+ print('{} soygazdır.'.format(gaz))
+ gas = input('Bir gaz girin: ')
